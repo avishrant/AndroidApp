@@ -3,41 +3,37 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D3D3">
+    >
     <TextView
         android:text="Enter Phone Number:"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        android:textColor="#000000" />
+         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/phoneNum"
         android:text="04-XAMARIN"
-        android:textColor="#000000"
-        android:background="#D3D3D3" />
+         />
     <Button
         android:text="Translate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnTranslate"
-        android:textColor="#000000"
-        android:background="#D3D3D3" />
+         />
     <Button
         android:text="Call"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCall"
-        android:textColor="#000000"
-        android:background="#D3D3D3" />
+         />
     <Button
         android:text="Show Call History"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnHistory"
         android:enabled="false"
-        android:textColor="#000000"
-        android:background="#D3D3D3" />
+         />
 </LinearLayout>
